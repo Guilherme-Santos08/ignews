@@ -1,0 +1,21 @@
+{
+  "id": "6c4158da-20a8-46b1-b41d-0f19eb42addc",
+  "uid": "modi-ipsum-modi",
+  "type": "post",
+  "data": {
+    "title": [
+      {
+        "type": "heading1",
+        "text": "Synthesize plug-and-play metrics",
+        "spans": []
+      }
+    ],
+    "Content": [
+      {
+        "type": "paragraph",
+        "text": "Ullamco Lorem do ea exercitation sit consectetur duis ex exercitation ut dolore sunt nostrud nostrud. Nostrud eiusmod cillum ut sit.",
+        "spans": []
+      }
+    ]
+  }
+}
