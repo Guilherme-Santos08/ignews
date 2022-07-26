@@ -13,4 +13,14 @@ module.exports = {
   },
 
   // testEnvironment: 'jsdom',
+
+  // Podemos usar uma funcionalidade do jest para ver onde precisa ou falta testar no nosso código
+  collectCoverage: true,
+  collectCoverageFrom: [
+    'src/**/*.tsx',
+    '!src/**/*.spec.tsx',
+    '!src/**/*_app.tsx',
+    '!src/**/*_document.tsx',
+  ],
+  coverageReporters: ['lcov', 'json'],
 }

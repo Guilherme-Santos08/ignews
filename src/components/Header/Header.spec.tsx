@@ -23,6 +23,9 @@ describe('Header component', () => {
   it('renders correctly', () => {
     render(<Header />)
 
+    // Podemos descobrir probriedades que possar ser usada em nossos teste usando o link que o código abaixo vai gerar no nosso terminal
+    screen.logTestingPlaygroundURL()
+
     expect(screen.getByText('Home')).toBeInTheDocument()
     expect(screen.getByText('Posts')).toBeInTheDocument()
   })
