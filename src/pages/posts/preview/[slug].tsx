@@ -9,7 +9,7 @@ import { RichText } from 'prismic-dom'
 import { Document } from '@prismicio/client/types/documents'
 import { getPrismicClient } from '../../../services/prismic'
 
-import styles from '../../styles/pages/post.module.scss'
+import styles from '../../../styles/pages/post.module.scss'
 
 interface PostPreviewProps {
   post: {
